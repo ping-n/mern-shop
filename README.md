@@ -1,6 +1,6 @@
 # MERN Shop
 
-This project was created to dive deeper into MERN stack through following [Brad MERN course](https://www.udemy.com/course/mern-ecommerce) course
+This project was created to dive deeper into MERN stack through following [Brad's MERN course](https://www.udemy.com/course/mern-ecommerce) course
 
 > eCommerce platform built with the MERN stack & Redux.
 
