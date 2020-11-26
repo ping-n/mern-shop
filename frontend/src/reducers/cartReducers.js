@@ -1,4 +1,4 @@
-import { CART_ADD_ITEM } from '../constants/cartConstants';
+import { CART_ADD_ITEM, CART_FAIL_ITEM } from '../constants/cartConstants';
 
 export const cartReducer = (state = { cartItems: [] }, action) => {
   switch (action.type) {
@@ -20,6 +20,8 @@ export const cartReducer = (state = { cartItems: [] }, action) => {
           cartItems: [...state.cartItems, item]
         };
       }
+    case CART_FAIL_ITEM:
+      return { error: action.payload };
     default:
       return state;
   }
